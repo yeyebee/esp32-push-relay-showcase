@@ -14,7 +14,7 @@ draft: false
 
 이 두 줄이 생각보다 많은 것을 강제했다. 만들면서 몇 번 방향을 틀었고, 그 틀었던 지점들이
 이 글의 내용이다. 코드는 [저장소](https://github.com/yeyebee/esp32-push-relay-showcase)에
-있고, 이 글이 인용하는 시점은 `v1.0-blog` 태그로 고정해뒀다.
+있고, 이 글이 인용하는 시점은 `v1.1-blog` 태그로 고정해뒀다.
 
 ---
 
@@ -378,7 +378,7 @@ A 레코드를 먼저 맞추고 리로드해야 한다.
 
 그리고 ACME HTTP-01 챌린지는 **80 포트**를 쓴다. 443 만 열어두면 발급이 안 된다.
 
-자세한 절차는 [docs/deployment.md](https://github.com/yeyebee/esp32-push-relay-showcase/blob/v1.0-blog/docs/deployment.md) 에 정리해뒀다.
+자세한 절차는 [docs/deployment.md](https://github.com/yeyebee/esp32-push-relay-showcase/blob/v1.1-blog/docs/deployment.md) 에 정리해뒀다.
 
 ---
 
@@ -426,9 +426,9 @@ NVS 에 큐를 두고 재시도해야 한다.
 
 ---
 
-**코드**: [github.com/yeyebee/esp32-push-relay-showcase](https://github.com/yeyebee/esp32-push-relay-showcase) (`v1.0-blog`)
+**코드**: [github.com/yeyebee/esp32-push-relay-showcase](https://github.com/yeyebee/esp32-push-relay-showcase) (`v1.1-blog`)
 
 **더 읽을 것**
-- [docs/architecture.md](https://github.com/yeyebee/esp32-push-relay-showcase/blob/v1.0-blog/docs/architecture.md) — 컴포넌트·API 계약·스택 선택 근거
-- [docs/ble-pairing.md](https://github.com/yeyebee/esp32-push-relay-showcase/blob/v1.0-blog/docs/ble-pairing.md) — BLE 페어링과 상태 동기화 상세
-- [docs/deployment.md](https://github.com/yeyebee/esp32-push-relay-showcase/blob/v1.0-blog/docs/deployment.md) — 1GB VPS 배포 절차
+- [docs/architecture.md](https://github.com/yeyebee/esp32-push-relay-showcase/blob/v1.1-blog/docs/architecture.md) — 컴포넌트·API 계약·스택 선택 근거
+- [docs/ble-pairing.md](https://github.com/yeyebee/esp32-push-relay-showcase/blob/v1.1-blog/docs/ble-pairing.md) — BLE 페어링과 상태 동기화 상세
+- [docs/deployment.md](https://github.com/yeyebee/esp32-push-relay-showcase/blob/v1.1-blog/docs/deployment.md) — 1GB VPS 배포 절차
