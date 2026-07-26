@@ -1,0 +1,38 @@
+# ===== Secrets — 이 저장소에는 애초에 없어야 함 =====
+.env
+secrets.h
+!*secrets.h.example
+*firebase-adminsdk*.json
+google-services.json
+GoogleService-Info.plist
+**/firebase_options.dart
+*.pem
+*.p8
+*.jks
+*.keystore
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/
+*.db
+
+# ===== Flutter =====
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+
+# ===== Arduino =====
+*.bin
+*.elf
+*.hex
+
+# ===== Editor / OS =====
+.vscode/
+.idea/
+*.swp
+.DS_Store

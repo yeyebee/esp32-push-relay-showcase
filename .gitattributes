@@ -1,0 +1,7 @@
+# 저장소에는 항상 LF 로 저장 (Windows 로컬 ↔ Linux 서버 혼용)
+* text=auto eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+
+*.png binary
+*.jpg binary
